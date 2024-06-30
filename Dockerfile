@@ -12,6 +12,7 @@ RUN set -x \
 	&& apt-get update \
 	&& mkdir -p "${STEAMAPPDIR}" \
 	&& chmod +x "${HOMEDIR}/build.sh" \
+	&& chmod +x "${HOMEDIR}/start-server.sh" \
 	&& chown -R "${USER}:${USER}" "${HOMEDIR}/build.sh" "${STEAMAPPDIR}" \
 	# Clean up
 	&& rm -rf /var/lib/apt/lists/*
