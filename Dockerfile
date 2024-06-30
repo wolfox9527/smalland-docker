@@ -25,9 +25,3 @@ USER ${USER}
 WORKDIR ${HOMEDIR}
 
 CMD ["bash", "build.sh"]
-
-# Expose ports
-# EXPOSE 7777/tcp
-# EXPOSE 7777/udp
-# EXPOSE 7778/tcp
-# EXPOSE 7778/udp
