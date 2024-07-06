@@ -1,9 +1,9 @@
 services:
-  abiotic-server:
+  smalland-dedicated:
     image: "ghcr.io/mrmightynighty/smalland-docker:latest"
     restart: unless-stopped
     volumes:
-      - "/path/to/host:/home/steam/smalland-dedicated"
+      - "./smalland:/home/steam/smalland-dedicated"
     environment:
       # Name of the server as it should appear on the server browser screen (for example "My Server")
       - SERVERNAME="Linux Docker Server"
