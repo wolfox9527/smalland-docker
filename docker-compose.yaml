@@ -6,11 +6,11 @@ services:
       - "./smalland:/home/steam/smalland-dedicated"
     environment:
       # Name of the server as it should appear on the server browser screen (for example "My Server")
-      - SERVERNAME="Linux Docker Server"
+      - SERVERNAME=Linux Docker Server
       # World name which corresponds to the  save file name (for example "World")
-      - WORLDNAME="World"
+      - WORLDNAME=World
       # Password, leave it empty for open servers (for example "myPassword", can be empty "")
-      - PASSWORD="CHANGEME"
+      - PASSWORD=CHANGEME
       # Friendly fire between players, aka PVP (0 or 1)
       - FRIENDLYFIRE=0
       # Peaceful mode (0 or 1)
